@@ -13,7 +13,7 @@ Metrics (frontal webcam proxies, normalised so no absolute cm values are needed)
 Both are compared against a personal baseline captured during calibration.
 
 Usage:
-  pip install ultralytics opencv-python plyer
+  pip install numpy ultralytics opencv-python plyer
   python posture_guard.py                 # webcam 0
   python posture_guard.py --source demo.mp4
 Keys: c = recalibrate (sit upright, normal distance), q = quit
