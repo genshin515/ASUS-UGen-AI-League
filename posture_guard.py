@@ -31,7 +31,7 @@ L_EYE, R_EYE, L_EAR, R_EAR, L_SH, R_SH = 1, 2, 3, 4, 5, 6
 # ---- tunable parameters ----------------------------------------------------
 KPT_CONF = 0.5        # min keypoint confidence
 CALIB_SEC = 5.0       # seconds of good posture used as baseline
-SLOUCH_RATIO = 0.75   # head_ratio < baseline * this  -> slouching
+SLOUCH_RATIO = 0.85   # head_ratio < baseline * this  -> slouching
 CLOSE_RATIO = 1.25    # eye_ratio  > baseline * this  -> too close
 HOLD_SEC = 3.0        # must stay bad this long before alerting
 COOLDOWN_SEC = 60.0   # min seconds between repeated alerts per issue

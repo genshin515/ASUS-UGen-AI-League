@@ -20,7 +20,7 @@ local notification.
    - `head_ratio` = (shoulder-midpoint y − ear-midpoint y) / shoulder width. It shrinks when you slouch.
    - `eye_ratio` = eye distance / frame width. It grows when you lean toward the screen.
 4. **Compare** against your own baseline, recorded in the first 5 seconds (sit upright at a normal distance).
-   Slouching is flagged below 75 % of baseline `head_ratio`; "too close" above 125 % of baseline `eye_ratio`.
+   Slouching is flagged below 85 % of baseline `head_ratio`; "too close" above 125 % of baseline `eye_ratio`.
 5. **Debounce**: an issue must last 3 s before alerting, with a 60 s cooldown per issue type.
 6. **Alert** with a desktop notification and an on-screen banner.
 
